@@ -1,0 +1,42 @@
+	/*
+  	icon_instagram icon font: icon_instagram
+  	Creation date: 04/03/2017 21:08
+  	*/
+
+@font-face {
+  font-family: 'icon_instagram';
+  src: url('../fonts/icon_instagram.eot');
+  src: url('../fonts/icon_instagram.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/icon_instagram.woff') format('woff'),
+       url('../fonts/icon_instagram.ttf') format('truetype'),
+       url('../fonts/icon_instagram.svg#icon_instagram') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icn {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icon_instagram';
+    src: url('../fonts/icon_instagram.svg#icon_instagram') format('svg');
+  }
+}
+
+[class^='icon_instagram-']:before, [class*=' icon_instagram-']:before,
+[class^='icon_instagram-']:after, [class*=' icon_instagram-']:after {   
+  font-family: icon_instagram;
+        font-size: 1.33333333em;;
+font-style: normal;
+margin-left: 20px;
+}
+
+.icon_instagram-instagram:before { content: '\f100'; }'; }
