@@ -465,6 +465,7 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu.scrollable{
 		overflow-y: auto;
 		-webkit-overflow-scrolling: touch;
+		max-height: inherit !important;
 	}
 	.menuzord-responsive .menuzord-menu.scrollable > .scrollable-fix{
 		display: block;

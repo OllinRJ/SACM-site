@@ -8,7 +8,8 @@
 		padding: 0 15px;
 	}
 	.theme_menu .right-column {
-	    width: 225px;
+	    /* width: 225px; */
+		width: 70px;
 	}
 }
 
