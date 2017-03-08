@@ -218,6 +218,17 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   color: #00adef;
   transition: all .5s cubic-bezier(0.4, 0, 1, 1);
 }
+/* estilos slider botones izquierdo  */
+.slide-content-box .thm-btn {
+  background-color: #ffffff;
+  color: #00adef;
+}
+
+.slide-content-box .thm-btn:hover {
+  background-color: #00adef;
+  color: #ffffff;
+}
+/* fin estilos slider botones izquierdo  */
 
 .anim-3 {
   transition: all 0.3s ease;
