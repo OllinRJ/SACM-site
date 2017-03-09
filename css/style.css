@@ -295,7 +295,8 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     display: none;
     color: #fff;
     text-align: center;
-    background: #00adef;
+    /* background: #00adef; */
+    background: #777777;
 }
 .scroll-top span:before {
   font-size: 27px;
@@ -5580,9 +5581,10 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 .awards {
   position: relative;
-  background: #00adef;
+  /* background: #00adef; */
   padding: 60px 0 40px;
 }
+/*
 .awards:after {
   position: absolute;
   content: "";
@@ -5592,6 +5594,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   bottom: 50px;
   left: 50%;
 }
+*/
 .awards .container {
   position: relative;
 }
