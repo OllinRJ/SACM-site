@@ -93,7 +93,8 @@ License: http://codecanyon.net/licenses
 ======================================*/
 .menuzord-menu{
 	margin: 0;
-	padding: 0;
+	/* padding: 0; */
+	padding: 17px 0px 0px 0px;
 	float: left;
 	list-style: none;
 }
