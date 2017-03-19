@@ -275,6 +275,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     height: 4px;
     background: #00adef;
 }
+
+.section-title.titulolargo:before {
+  top: 60px;
+}
+
 .section-title.center:before {
     left: 50%;
     margin-left: -25px;
@@ -2933,9 +2938,22 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 .accordion-box .accordion .acc-content p {
-    margin: 0;
+  margin: 0;
 }
 
+.accordion-box .accordion .acc-content p.parrafo_acordeon{
+  margin-bottom: 20px;
+}
+
+.accordion-box .accordion .acc-content .lista_acordeon{
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.accordion-box .accordion .acc-content .item_acordeon{
+  padding-bottom: 10px;
+}
 
 .accordion-box .accordion .acc-btn.active .toggle-icon .minus {
   color: #121d2f;
