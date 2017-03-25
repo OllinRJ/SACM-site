@@ -1731,14 +1731,34 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   padding: 10px;
 }
 
-
-
-
-
-
-
 /*single-blog*/
 
+
+
+/* Aniversario Luctuoso */
+.div_renglon_nombre{
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+
+.div_renglon_nombre.fondoblanco{
+  background-color: #ffffff;
+}
+
+.div_renglon_nombre.fondogris{
+  background-color: #f3f3f3;
+}
+
+.luc_nombre_realsocio{
+  color: #004183;
+}
+
+.luc_nombre_artistasocio{
+  font-style: italic;
+  color: #808080;
+}
+/* Fin Aniversario Luctuoso */
 
 
 
