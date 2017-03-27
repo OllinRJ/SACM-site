@@ -1742,6 +1742,19 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   padding: 15px;
 }
 
+.tabla_nombres_funcionarios{
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.div_renglon_nombre.funcionario{
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .div_renglon_nombre.fondoblanco{
   background-color: #ffffff;
 }
@@ -1757,6 +1770,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .luc_nombre_artistasocio{
   font-style: italic;
   color: #808080;
+}
+
+.luc_nombre_funcionario{
+  color: #808080;
+  font-size: 17px;
 }
 /* Fin Aniversario Luctuoso */
 
@@ -2961,7 +2979,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   margin: 0;
 }
 
-.accordion-box .accordion .acc-content p.parrafo_acordeon{
+.accordion-box .accordion .acc-content p.parrafo_acordeon, .parrafo_gral{
   margin-bottom: 20px;
 }
 
@@ -2971,8 +2989,12 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   margin-bottom: 20px;
 }
 
-.accordion-box .accordion .acc-content .item_acordeon{
+.accordion-box .accordion .acc-content .item_acordeon, .item_gral{
   padding-bottom: 10px;
+}
+
+.item_gral{
+  color: #848484
 }
 
 .accordion-box .accordion .acc-btn.active .toggle-icon .minus {
