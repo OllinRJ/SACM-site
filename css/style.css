@@ -3593,6 +3593,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   margin-bottom: 6px;
 }
 
+.single-testimonial h4.ficha_compositor{
+  height: 48px;
+  line-height: 130%;
+  overflow: hidden;
+}
 
 .single-testimonial .img-box {
   position: relative;
@@ -3603,11 +3608,21 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 
-.testimonials .single-testimonial {
+.testimonials .single-testimonial{
   margin-bottom: 40px;
   border: 1px solid #f4f4f4;
   padding: 30px 10px 26px;
   transition: .5s ease-in-out;
+}
+
+.div_ficha_compositor{
+  border: 1px solid #f4f4f4;
+  padding: 15px;
+  transition: .5s ease-in-out;
+}
+
+.div_ficha_compositor .reconocimiento{
+  color: #ffffff;
 }
 
 .testimonials .single-testimonial:hover {
@@ -3615,7 +3630,14 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   transition: .5s ease-in-out;
 }
 
+.single-testimonial .plaza_compositor{
+  height: 196px;
+  overflow: hidden;
+}
 
+.single-testimonial .img_libro_publicaciones{
+  height: 135px;
+}
 
 .single-testimonial .author-info {
   overflow: hidden;
@@ -3640,10 +3662,31 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 }
 
+.div_juventino{
+  background-image: url('../images/background/juventino_fondo.jpg');
+  background-repeat: no-repeat;
+  max-width: 770px;
+  width: 100%;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 35px;
+}
 
+.div_contenedor_ficha_compositor{
+  position: absolute;
+  width: 25%;
+  top: 8%;
+  left: 45%;
+}
 
-
-
+.fondo_trayectoria{
+  background-image: url('../images/background/FondoTrayectoria.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
 
 
 
