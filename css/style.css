@@ -1748,11 +1748,26 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   width: 100%;
 }
 
-.div_renglon_nombre.funcionario{
+.div_renglon_nombre.funcionario, .div_renglon_nombre.tipo_programa, .div_renglon_nombre.tipo_utilizacion, .div_renglon_nombre.puntos, .div_renglon_nombre.delegados{
   display: table-cell;
   width: 50%;
   vertical-align: middle;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.div_renglon_nombre.tipo_programa, .div_renglon_nombre.tipo_utilizacion{
+  width: 40%;
+}
+
+.div_renglon_nombre.delegados{
+  width: 33.3%;
+  vertical-align: top;
+}
+
+.div_renglon_nombre.puntos{
+  width: 20%;
 }
 
 .div_renglon_nombre.fondoblanco{
