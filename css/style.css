@@ -412,7 +412,8 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 .menuzord-menu ul.dropdown li a {
-  padding: 10px 0 9px;
+  /* padding: 10px 0 9px; */
+  padding: 5px 0 5px;
   color: #848484;
   border-bottom: 1px dashed #3c3c3c;
   transition: .5s ease-in-out;
