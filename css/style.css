@@ -3642,6 +3642,10 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   transition: .5s ease-in-out;
 }
 
+.single-testimonial.exito_ficha_compositor{
+  height: 380px;
+}
+
 .div_ficha_compositor{
   border: 1px solid #f4f4f4;
   padding: 15px;
