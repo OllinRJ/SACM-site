@@ -324,7 +324,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
  z-index:999999; background-color:#ffffff; background-position:center center;
   background-repeat:no-repeat; background-image:url(../images/icons/preloader.gif);}
 
-
+.div_tresbanners{
+  position: fixed;
+  top: 70px;
+  width: 270px;
+}
 
 
 
@@ -3635,7 +3639,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 
-.testimonials .single-testimonial{
+.testimonials .single-testimonial, .single-testimonial{
   margin-bottom: 40px;
   border: 1px solid #f4f4f4;
   padding: 30px 10px 26px;
